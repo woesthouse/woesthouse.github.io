@@ -68,7 +68,7 @@ const toggleTodoStatus = (id) => {
         todo.id === id ? { ...todo, isDone: !todo.isDone } : todo
     );
     localStorage.setItem('todos', JSON.stringify(mockData));
-    renderTodos();
+    filterTodos();
 };
 
 const deleteTodo = (id) => {
