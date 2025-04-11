@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="editor.css">
+    <link rel="stylesheet" href="list.css">
+</head>
+<body>
+    <div class="App">
+        <div class="Header">
+            <h1>오늘의 할 일 ✅</h1>
+            <h2 id="currentDate"></h2>
+        </div>
+        <form class="Editor">
+            <input type="text" id="newTodo" placeholder="할 일을 입력하세요">
+            <button type="button">추가</button>
+        </form>
+        <div class="List">
+            <div class="list-header">
+                <h3>Todo List 📋</h3>
+                <select id="sortSelect">
+                    <option value="all">모두 보기</option>
+                    <option value="active">할 일만</option>
+                    <option value="completed">완료된 항목만</option>
+                </select>
+            </div>
+            <input type="text" id="keyword" placeholder="검색어를 입력하세요">
+            <div class="todo-list">
+                <!-- 할 일 목록이 여기에 표시됩니다 -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
