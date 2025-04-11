@@ -1,0 +1,56 @@
+/*밑줄없애기*/
+ul li a{text-decoration: none;}
+
+nav li a:link{
+	color: red;
+}
+nav li a:visited{
+	color: green;
+}
+nav li a:hover{
+	color: #e677a3;
+	text-decoration: underline;
+}
+
+/*메뉴를 가로방향*/
+#navbar ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#navbar ul li{
+	list-style-type: none;
+	margin: 0 10px; /*상하   좌우*/
+    font-weight: bold;
+}
+
+
+
+#navbar ul li.nav-item.logo img{
+	 width: 40px; height: 40px;
+	
+}
+
+#navbar{
+	background-color: #77e2e6;
+	padding: 5px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+
+/*모든 페이지 공통부분, banner css*/
+#banner{
+	background-color: #77a5e6;
+	color: white;
+	font-size: xx-large;;
+	text-align: center;
+	text-shadow: 5px 5px 5px blue;
+	padding: 30px;
+}
+
+*{
+	box-sizing: border-box;
+}
